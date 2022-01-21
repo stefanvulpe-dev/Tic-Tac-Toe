@@ -1,0 +1,69 @@
+.gameBoard {
+    -fx-background-color: #3cbdc7;
+    -fx-padding: 20;
+}
+
+.mainAnchorPane {
+    -fx-background-color: #3cbdc7;
+}
+
+.gameCell {
+    -fx-background-color: #ffffff, #3cbdc7;
+    -fx-background-insets: 0, 0 6 6 0; /*top, right, bottom, left*/
+}
+
+.gameCell:hover {
+    -fx-background-color: #ffffff, #f1f1f1;
+    -fx-background-insets: 0, 0 6 6 0; /*top, right, bottom, left*/
+}
+
+#last-row {
+   -fx-background-insets: 0, 0 6 0 0; /*top, right, bottom, left*/
+}
+
+#last-column {
+    -fx-background-insets: 0, 0 0 6 0; /*top, right, bottom, left*/
+}
+
+#last-row-last-column {
+    -fx-background-insets: 0, 0 0 0 0; /*top, right, bottom, left*/
+}
+
+#button_play_again {
+    -fx-background-color: #3cbdc7;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-border-width: 6px;
+    -fx-border-color: #ffffff;
+    -fx-text-align: center;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#button_play_again:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #303030;
+}
+
+#line {
+    -fx-stroke: #000000;
+    -fx-stroke-width: 5px;
+    -fx-stroke-line-cap: ROUND;
+    -fx-smooth: true;
+}
+
+#hyperlink {
+    -fx-text-fill: #000000;
+    -fx-underline: false;
+    -fx-border-color: transparent;
+}
+
+#hyperlink:hover {
+    -fx-text-fill: #ffffff;
+    -fx-underline: false;
+}
+
+#info:hover {
+    -fx-text-fill: #ffffff;
+}
