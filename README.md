@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to my VS Code Tic-Tac-Toe Java project. This is a simple game, player vs player mode only, that helped me to understand the basics of JavaFX.
+Welcome to my VS Code Tic-Tac-Toe Java project. This is a simple game, player vs player mode only, that helped me understand the basics of JavaFX.
 
 ## Folder Structure
 
